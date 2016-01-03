@@ -1,0 +1,21 @@
+{
+    "name" : "sw3dish/plateau",
+    "description" : "A flat-file CMS written in PHP",
+    "type" : "library",
+    "keywords" : ["cms", "flat-file"],
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Colin Burr",
+            "email" : "colin.a.burr@gmail.com",
+            "homepage" : "http://colinburr.me"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.3",
+        "slim/slim" : "2.*",
+        "slim/views" : "0.1.*",
+        "twig/twig" : "1.*",
+        "league/commonmark" : "0.9.0"
+    }
+}
