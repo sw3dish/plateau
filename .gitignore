@@ -12,3 +12,7 @@ vendor
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Credentials #
+###############
+.remote-sync.json
