@@ -2,9 +2,9 @@
 <html>
     <head>
     	<!-- Meta Information -->
-        <title>{{settings.site_title}} - {% block page_title %} {% endblock %}</title>
+        <title>{{site_title}} - {% block page_title %} {% endblock %}</title>
         <meta charset=&quot;utf8&quot; />
-        <meta name="description" content="{{settings.meta_description}}">
+        <meta name="description" content="{{site_description}}">
 
         <!-- Favicon-->
         <link rel="icon" href="">
@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <p>Powered by Plateau</p>
+                        <p>Powered by <a href="https://www.github.com/sw3dish/plateau">Plateau</a></p>
                     </div>
                 </div>
             </div>
